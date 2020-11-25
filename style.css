@@ -15,6 +15,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .card{
@@ -34,6 +35,12 @@ body{
     background-position: center;
 
     position: relative;
+    margin-bottom: 15px;
+}
+
+.card:nth-child(2){
+    background-image: url('./images/490754.jpg');
+
 }
 
 .card .description{
