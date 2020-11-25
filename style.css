@@ -24,6 +24,7 @@ body{
 
     height: 250px;
     width: 80%;
+    max-width: 500px;
    
     background-image: url('./images/react-image.png');
     box-shadow: 0px 0px 15px black;
